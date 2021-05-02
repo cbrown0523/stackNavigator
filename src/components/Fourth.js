@@ -16,11 +16,14 @@ class Fourth extends Component {
           <View>      
         <Text style={styles.heading}>Template Information</Text>                     
           </View>    
-              <Text style={styles.text1}>  lorem Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed id semper risus in hendrerit gravida rutrum. Bibendum ut tristique et egestas quis ipsum suspendisse. Quis vel eros donec ac odio. Facilisi cras fermentum odio eu. Pharetra pharetra massa massa ultricies mi quis hendrerit dolor. Pellentesque massa placerat duis ultricies lacus sed. Mi tempus imperdiet nulla malesuada pellentesque elit eget gravida. Elit duis tristique sollicitudin nibh sit. A arcu cursus vitae congue mauris rhoncus aenean.
+              <Text style={styles.text1}> lorem Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed id semper risus in hendrerit gravida rutrum. Bibendum ut tristique et egestas quis ipsum suspendisse. Quis vel eros donec ac odio. Facilisi cras fermentum odio eu. Pharetra pharetra massa massa ultricies mi quis hendrerit dolor. Pellentesque massa placerat duis ultricies lacus sed. Mi tempus imperdiet nulla malesuada pellentesque elit eget gravida. Elit duis tristique sollicitudin nibh sit. A arcu cursus vitae congue mauris rhoncus aenean.
 
                 </Text>
                 <TouchableOpacity style={styles.buttonContainerStyle} onPress={() => this.props.navigation.navigate('Fifth')}>
                 <Text style={styles.buttonTextStyle}>Open Fifth Screen</Text>
+                </TouchableOpacity>
+                <TouchableOpacity style={styles.buttonContainerStyle} onPress={() => this.props.navigation.navigate('Third')}>
+                <Text style={styles.buttonTextStyle}>Open Third Screen</Text>
                 </TouchableOpacity>
             </View>
         )
@@ -46,9 +49,7 @@ const styles = StyleSheet.create({
       paddingRight: 10
   
   },
-text1:{
-    paddingTop:50,
-},
+
   buttonTextStyle: {
       fontSize: 20,
       color: '#fff',

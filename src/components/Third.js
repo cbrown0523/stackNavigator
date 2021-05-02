@@ -21,10 +21,13 @@ class Third extends Component {
               <Text>  lorem Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed id semper risus in hendrerit gravida rutrum. Bibendum ut tristique et egestas quis ipsum suspendisse. Quis vel eros donec ac odio. Facilisi cras fermentum odio eu. Pharetra pharetra massa massa ultricies mi quis hendrerit dolor. Pellentesque massa placerat duis ultricies lacus sed. Mi tempus imperdiet nulla malesuada pellentesque elit eget gravida. Elit duis tristique sollicitudin nibh sit. A arcu cursus vitae congue mauris rhoncus aenean.
 
                 </Text>
-                <TouchableOpacity style={styles.buttonContainerStyle} onPress={() => this.props.navigation.navigate('Fourth')}>
+                <TouchableOpacity style={styles.buttonContainerStyle} onPress={() => this.props.navigation.navigate('Second')}>
                
-                <Text style={styles.buttonTextStyle}>Open Fourth Screen</Text>
+                <Text style={styles.buttonTextStyle}>Open Second Screen</Text>
                  </TouchableOpacity>
+                 <TouchableOpacity style={styles.buttonContainerStyle} onPress={() => this.props.navigation.navigate('Fourth')}>
+                <Text style={styles.buttonTextStyle}>Open Fourth Screen</Text>
+                </TouchableOpacity>
                 </View>
         )
     }
